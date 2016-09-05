@@ -73,3 +73,4 @@ git操作：都去找右键-team，其中show in repositories view特别好用�
 右键一个branch可以merge，选commit，if ff则create new。如果conflict，则工作区出现conflict解决文件供处理。解决之后commit conflict file则完成（此时可以尝试再次merge，会发现already up to date）。
 右键team可以解除git管理，删除repository不删除workingTree不remove from workspace就好。
 重命名branch：git branch -m old new
+.gitignore生成前已加入git管理的文件无法被.gitignore忽略。
