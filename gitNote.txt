@@ -72,3 +72,4 @@ clone下来：file-import-git-projectsFromGit-next-cloneURL(远程)-next-<pasteI
 git操作：都去找右键-team，其中show in repositories view特别好用，在这里可以新建、更换branch等等。注意工作区打开的文件是文件夹里看到的样子，只有一个版本，commit之后才属于各自的branch，此时切换branch可以看到各个版本。
 右键一个branch可以merge，选commit，if ff则create new。如果conflict，则工作区出现conflict解决文件供处理。解决之后commit conflict file则完成（此时可以尝试再次merge，会发现already up to date）。
 右键team可以解除git管理，删除repository不删除workingTree不remove from workspace就好。
+重命名branch：git branch -m old new
